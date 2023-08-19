@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("https://www.opensourceforu.com/wp-content/uploads/2022/05/Data-Profiling-1-e1651493498289.jpeg");
+    background-size: cover; 
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+header {
+    background-color: #03045E;
+    color: #fff;
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #f39c12;
+}
+
+.stud {
+    color: #fff;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.stud-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.stud h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.stud p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    display: inline-block;
+    background-color:#000080;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color:#f39c12;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 5rem 0;
+}
+
+.feature {
+    text-align: center;
+    max-width: 300px;
+    padding: 2rem;
+    background-color: #000080;
+    border-radius: 5px;
+    margin: 1rem;
+}
+
+.feature h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.about-section {
+    padding: 40px 0;
+}
+.about-section h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+.about-section p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #fff;
+}
+.team-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.team-member {
+    flex-basis: calc(33.33% - 20px);
+    margin: 10px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.team-member p{
+    color:#000;
+}
+.team-member img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+.team-member h3 {
+    margin-top: 10px;
+    font-size: 20px;
+    color:#000;
+}
+.container1 {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.services-section {
+    margin-top: 40px;
+}
+.services-section h2{
+    font-size:30px;
+}
+.service {
+    background-color: #63c5da;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.service h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color:#000;
+}
+.service p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+.container2 {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.contact-section {
+    margin-top: 40px;
+    text-align: center;
+}
+.contact-section h2{
+    font-size:30px;
+}
+.contact-section p{
+    color:#fff;
+}
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #0492c2;
+    color:#000;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    background-color:#82eefd;
+}
+.contact-form textarea {
+    height: 150px;
+}
+.contact-form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.login-container {
+    background-color: #0492c2;
+    max-width: 660px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color:#fff;
+}
+.login-form label {
+    display: block;
+    margin-bottom: 8px;
+    color:#000;
+}
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    background-color:#82eefd;
+}
+.login-form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%;
+}
+.register-container {
+    background-color: #0492c2;
+    max-width: 660px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.register-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color:#fff;
+}
+.register-form label {
+    display: block;
+    margin-bottom: 8px;
+    color:#000;
+}
+.register-form input[type="text"],
+.register-form input[type="email"],
+.register-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    background-color:#82eefd;
+}
+.register-form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%;
+}
+
+footer {
+    background-color:#03045E;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
